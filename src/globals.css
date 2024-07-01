@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --dark-purple:#9855FF;
+    --light-purple:#B372CF;
+}
+
 
 body {
     background-color: #000;

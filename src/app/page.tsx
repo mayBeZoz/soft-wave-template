@@ -1,4 +1,5 @@
 
+import Cards from "./_components/Cards/Cards";
 import Clients from "./_components/Clients";
 import Hero from "./_components/Hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
         <>
             <Hero/>
             <Clients/>
+            <Cards/>
         </>
     );
 }

@@ -26,9 +26,9 @@ function Hero() {
                 <div className="relative z-10">
                     <TextSection/>
 
-                    <div className="w-full shadow-[0_-39px_100px] shadow-dark-purple/60 mt-20">
+                    <div className="w-full shadow-[0_-50px_100px] shadow-dark-purple/60 mt-20">
                         <img 
-                            src="/panel.png" 
+                            src="/images/panel.png" 
                             alt="hero-img" 
                             className='w-full rounded-lg h-full object-contain'
                         />

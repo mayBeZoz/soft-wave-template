@@ -12,7 +12,7 @@ import MenuIcon from './MenuIcon'
 
 function Header() {
     return (
-        <header className='h-[80px] backdrop-blur-lg z-[100] flex items-center border-white/20 border-b w-full'>
+        <header className='h-[80px] relative backdrop-blur-lg z-[100] flex items-center border-white/20 border-b w-full'>
             <div className="container gap-5 items-center flex justify-between">
                 <Logo/>
                 <Nav/>

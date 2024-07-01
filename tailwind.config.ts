@@ -16,7 +16,8 @@ const config: Config = {
                 center:true
             },
             backgroundImage:{
-                "dark-bottom-gradient":'linear-gradient(to bottom, transparent, black 65%)'
+                "dark-bottom-gradient":'linear-gradient(to bottom, transparent, black 65%)',
+                "purple-bottom-gradient":'linear-gradient(to bottom, transparent, var(--dark-purple) 200%)'
             }
         },
     },
