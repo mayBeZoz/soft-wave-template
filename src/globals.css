@@ -21,19 +21,34 @@ body {
 }
 
 /* from-[10%] block via-[50%] to-[90%] bg-gradient-to-r from-transparent via-white to-transparent */
-.horizontal_gradient_line {
+.test_horizontal_line {
     background-image: linear-gradient(to right,
         transparent,
+        #ffffff56,
         #ffffff79,
         #ffffff79,
         #ffffff79,
         #ffffff79,
         #ffffff79,
-        #ffffff79,
+        #ffffff56,
         transparent
     );
-    width: 100%;
-    display: block;
-    height: 2px;
+    @apply z-10 absolute block h-[2px] !w-[170%] md:!w-full left-1/2 -translate-x-1/2;
+}
+
+
+.test_vertical_line {
+    background-image: linear-gradient(to bottom,
+        transparent,
+        #ffffff56,
+        #ffffff79,
+        #ffffff79,
+        #ffffff79,
+        #ffffff79,
+        #ffffff79,
+        #ffffff56,
+        transparent
+    );
+    @apply z-10 absolute block w-[2px] !h-[170%] top-1/2 -translate-y-1/2;
 
 }
