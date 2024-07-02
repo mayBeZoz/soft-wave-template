@@ -19,3 +19,21 @@ body {
 .container {
     @apply w-[90%] max-w-[1200px];
 }
+
+/* from-[10%] block via-[50%] to-[90%] bg-gradient-to-r from-transparent via-white to-transparent */
+.horizontal_gradient_line {
+    background-image: linear-gradient(to right,
+        transparent,
+        #ffffff79,
+        #ffffff79,
+        #ffffff79,
+        #ffffff79,
+        #ffffff79,
+        #ffffff79,
+        transparent
+    );
+    width: 100%;
+    display: block;
+    height: 2px;
+
+}

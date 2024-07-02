@@ -13,9 +13,9 @@ function SmallCard({description,imgURL,title}:SmallCardProps) {
                 className='w-[270px] h-[200px] mx-auto object-contain'
             />
 
-            <div className="text-lg">
-                <h6 className=' mb-3'>{title}</h6>
-                <p className='text-white/70 w-[260px]'>{description}</p>
+            <div>
+                <h6 className=' mb-3 text-lg'>{title}</h6>
+                <p className='text-white/70 w-full text-lg lg:w-[260px]'>{description}</p>
             </div>
 
         </div>

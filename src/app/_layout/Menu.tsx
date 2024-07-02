@@ -1,6 +1,6 @@
 "use client"
 
-import { routes } from "@/constatnts"
+import { routes } from "@/constants"
 import { useMenuProvider } from "@/contexts/MenuContext"
 import { AnimatePresence, motion } from "framer-motion"
 

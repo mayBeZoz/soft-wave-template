@@ -26,7 +26,7 @@ function Cards() {
 
     const headingText = "Harness the power of AI, making search engine optimization intuitive and effective for all skill levels."
     return (
-        <section className='mt-40'>
+        <section className='mt-40 mb-20'>
             <div className="container">
                 <h4 className='text-3xl mb-8 mx-auto sm:text-[2.15em] sm:w-[550px] w-full text-center'>{headingText}</h4>
 

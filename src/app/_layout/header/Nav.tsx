@@ -1,4 +1,4 @@
-import { routes } from "@/constatnts";
+import { routes } from "@/constants";
 
 export default function Nav ()  {
     return (

@@ -1,4 +1,4 @@
-import { clients } from '@/constatnts'
+import { clients } from '@/constants'
 import React from 'react'
 
 function Clients() {
