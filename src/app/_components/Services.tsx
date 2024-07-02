@@ -10,7 +10,7 @@ function Services() {
                 <div className="w-full grid gap-y-10 gap-x-16 grid-cols-[repeat(auto-fit,minmax(320px,1fr))]">
                     {
                         services.map((service,idx) => (
-                            <div className="w-full text-lg">
+                            <div key={idx} className="w-full text-lg">
                                 <div className='flex items-center mb-3 gap-1'>
                                     <span>{service.icon}</span>
                                     <h6>{service.title}</h6>
