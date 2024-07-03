@@ -96,3 +96,45 @@ export const plans = [
         isTopSeller:false
     },
 ]
+
+export const footerCols = [
+    {
+        title: 'Product',
+        links: [
+            { title: 'Features', href: '#' },
+            { title: 'Integration', href: '#' },
+            { title: 'Upadtes', href: '#' },
+            { title: 'FAQ', href: '#' },
+            { title: 'Pricing', href: '#' },
+        ]
+    },
+    {
+        title: 'Company',
+        links: [
+            { title: 'About', href: '#' },
+            { title: 'Blog', href: '#' },
+            { title: 'Careers', href: '#' },
+            { title: 'Manifesto', href: '#' },
+            { title: 'Press', href: '#' },
+            { title: 'Contract', href: '#' },
+        ]
+    },
+    {
+        title: 'Resources',
+        links: [
+            { title: 'Examples', href: '#' },
+            { title: 'Community', href: '#' },
+            { title: 'Guides', href: '#' },
+            { title: 'Docs', href: '#' },
+            { title: 'Press', href: '#' },
+        ]
+    },
+    {
+        title: 'Legal',
+        links: [
+            { title: 'Privacy', href: '#' },
+            { title: 'Terms', href: '#' },
+            { title: 'Security', href: '#' },
+        ]
+    },
+]

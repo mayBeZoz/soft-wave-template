@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-    --dark-purple:#9855FF;
+    --dark-purple:#43207A;
+    --medium-purple:#9855FF;
     --light-purple:#B372CF;
 }
 
@@ -12,12 +13,17 @@ body {
     background-color: #000;
     color: #fff;
 }
+input,button {
+    @apply outline-none border-0;
+} 
 
 ::-webkit-scrollbar {
     width: 0;
 }
+
 .container {
-    @apply w-[90%] max-w-[1200px];
+    width: 90%;
+    max-width: 1200px;
 }
 
 /* from-[10%] block via-[50%] to-[90%] bg-gradient-to-r from-transparent via-white to-transparent */
@@ -52,3 +58,4 @@ body {
     @apply z-10 absolute block w-[2px] !h-[170%] top-1/2 -translate-y-1/2;
 
 }
+
