@@ -3,15 +3,15 @@ import React from 'react'
 
 function Testimonials() {
     return (
-        <section className='my-10'>
+        <section>
             <div className="container mt-20">
                 <div className=" text-center mb-32">
                     <h3 className='text-7xl mx-auto mb-6'>Our clients</h3>
-                    <p className='text-2xl mx-auto w-[450px] font-normal'>Hear firsthand how our solutions have boosted online success for users like you.</p>
+                    <p className='text-2xl mx-auto w-[450px] font-thin'>Hear firsthand how our solutions have boosted online success for users like you.</p>
                 </div>
             </div>
 
-            <div>
+            <div className='mb-44'>
                 {
                     testimonials.map((test,idx) => (
                         <div key={idx} className="container">
@@ -27,7 +27,7 @@ function Testimonials() {
                                                 />
                                                 <span className="test_vertical_line left-[100%]"/>
                                                 <span className="test_vertical_line right-[100%]"/>
-                                                <div className="absolute w-full top-0 left-0 aspect-square bg-dark-purple blur-[170px]"/>
+                                                <div className="absolute w-full top-0 left-0 aspect-square bg-medium-purple blur-[170px]"/>
                                             </div>
                                             <span className='test_horizontal_line top-[100%]' />
                                             <span className='test_horizontal_line bottom-[100%]' />

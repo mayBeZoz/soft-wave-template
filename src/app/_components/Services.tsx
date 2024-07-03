@@ -3,7 +3,7 @@ import React from 'react'
 
 function Services() {
     return (
-        <section className='bg-gradient-to-br  py-20 from-[-400%]  from-dark-purple to-transparent'>
+        <section className='bg-gradient-to-br  py-20 from-[-400%]  from-medium-purple to-transparent'>
             <div className="container ">
                 <h5 className='text-4xl sm:text-6xl mb-10 w-[350px]'>Elevate your SEO efforts.</h5>
 

@@ -22,11 +22,11 @@ function Hero() {
     return (
         <section>
             <div className="container relative mt-[160px]">
-                <span className="absolute blur-[170px] top-[100px] bg-gradient-to-b from-light-purple/50 to-dark-purple block w-1/2 aspect-square -translate-x-1/2 left-1/2 "/>
+                <span className="absolute blur-[170px] top-[100px] bg-gradient-to-b from-light-purple/50 to-medium-purple block w-1/2 aspect-square -translate-x-1/2 left-1/2 "/>
                 <div className="relative z-10">
                     <TextSection/>
 
-                    <div className="w-full shadow-[0_-50px_100px] shadow-dark-purple/60 mt-20">
+                    <div className="w-full shadow-[0_-50px_100px] shadow-medium-purple/60 mt-20">
                         <img 
                             src="/images/panel.png" 
                             alt="hero-img" 

@@ -10,14 +10,14 @@ const config: Config = {
         extend: {
             colors: {
                 "light-purple":'#B372CF',
-                "dark-purple":'#9855FF'
+                "medium-purple":'#8C45FF',
+                "dark-purple":"#43207A"
             },
             container:{
                 center:true
             },
             backgroundImage:{
-                "dark-bottom-gradient":'linear-gradient(to bottom, transparent, black 65%)',
-                "purple-bottom-gradient":'linear-gradient(to bottom, transparent, var(--dark-purple) 200%)'
+                "purple-bottom-gradient":'linear-gradient(to bottom, transparent, var(--dark-purple) 200%)',
             }
         },
     },

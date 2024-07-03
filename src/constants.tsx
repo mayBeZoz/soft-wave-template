@@ -75,3 +75,24 @@ export const testimonials = [
         imageURL:'/images/testimonials/1.png'
     }
 ]
+
+export const plans = [
+    {
+        title:'pricing',
+        price: '$19/mo',
+        features:['Keyword optimization', 'Automated meta tags', 'SEO monitoring', 'Monthly reports'],
+        isTopSeller:false
+    },
+    {
+        title:'pro',
+        price: '$79/mo',
+        features:['Keyword optimization', 'Automated meta tags', 'SEO monitoring', 'Monthly reports',"Content suggestions",'Link optimization'],
+        isTopSeller:true
+    },
+    {
+        title:'Business',
+        price: '$149/mo',
+        features:['Keyword optimization', 'Automated meta tags', 'SEO monitoring', 'Monthly reports',"Content suggestions",'Link optimization','Multi-user access','API integration'],
+        isTopSeller:false
+    },
+]
