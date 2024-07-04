@@ -25,7 +25,7 @@ function Footer() {
                 <div className="grid flex-1 justify-start md:justify-end grid-cols-[repeat(auto-fit,100px)] gap-16">
                     {
                         footerCols.map((col,idx) => (
-                            <div>
+                            <div key={idx}>
                                 <h6 className='text-xl mb-6'>{col.title}</h6>
                                 <ul className='gap-6 flex flex-col'>
                                     {
